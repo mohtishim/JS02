@@ -1,4 +1,11 @@
 // MATH EXPRESSIONS
+
+
+
+
+
+
+// MATH EXPRESSIONS
 // Assignment # 6
 
 // Q1
@@ -36,8 +43,14 @@
 
 // Q5
 // var number = +prompt ("Enter number for multiplication");
+// if (!number){
+//     number = 5;
+// }
+
 // document.write(number," x 1 = ", number*1, "<br>", number," x 2 = ", number*2, "<br>", number," x 3 = ", number*3, "<br>", number," x 4 = ", number*4, "<br>", number," x 5 = ", number*5, "<br>", number," x 6 = ", number*6, "<br>", number," x 7 = ", number*7, "<br>", number," x 8 = ", number*8, "<br>", number," x 9 = ", number*9, "<br>", number," x 10 = ", number*10
 // );
+
+
 
 // Q6
 // a)
@@ -123,5 +136,62 @@
 
 
 // Q7
-var calculatedNum = 4 / 2 * 4;
-alert(calculatedNum);
+// var calculatedNum = 4 /( 2 * 4);
+// this will produce 0.5
+
+
+// Chapter 8 (Concatenating Text Strings)
+
+// Q1
+// var num = "2"+"2";
+// alert(num)
+// 22
+
+// Q2
+// var message = "Hello," + "Dolly";
+// alert(message);
+// Ans Hello,Dolly
+
+// Q3
+// alert("33" + 3);
+// 333
+
+// Q4
+
+// alert("Pakistan " + "Zindabad");
+
+// Q5
+// var concatination = 123456 + "@gmail.com";
+
+// Q6
+// var alpha = "Hello";
+// var bravo = "World";
+// var charlie = alpha + bravo;
+// alert(charlie);
+
+
+// Chapter 9 (Prompts)
+
+// Q1
+// var firstName = prompt ("Enter first name");
+
+// Q2
+// var country = prompt ("Enter country", "China");
+
+// Q3
+// var yourName = prompt("Enter Your Name");
+
+// Q4
+// var message = prompt("hello welcome..");
+
+// Q5 and Q6
+// var firstMessage = "Hello gentleman";
+// var secondMessage = "Type anything";
+// var show = prompt (firstMessage);
+// if (!show){
+//     show = secondMessage;
+// }
+// alert(show);
+
+
+
