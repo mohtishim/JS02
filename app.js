@@ -41,26 +41,87 @@
 
 // Q6
 // a)
-var sub1 = prompt ("Enter subject 1");
-var sub2 = prompt ("Enter subject 2");
-var sub3 = prompt ("Enter subject 3");
+// var sub1 = prompt ("Enter subject 1");
+// var sub2 = prompt ("Enter subject 2");
+// var sub3 = prompt ("Enter subject 3");
 
 // b)
-var totalMarks = 100;
+// var totalMarks = 100;
 
 // c)
-var obtainedMarks1 = +prompt ("Enter your "+ sub1+ " marks");
+// var obtainedMarks1 = +prompt ("Enter your "+ sub1+ " marks");
 
-// d)
-var obtainedMarks2 = +prompt ("Enter your "+ sub2+ " marks");
-var obtainedMarks3 = +prompt ("Enter your "+ sub3+ " marks");
+// // d)
+// var obtainedMarks2 = +prompt ("Enter your "+ sub2+ " marks");
+// var obtainedMarks3 = +prompt ("Enter your "+ sub3+ " marks");
 
 // e)
-document.write(`<table>
-    <tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th>
-    </tr><tr><td>${sub1}</td><td>${totalMarks}</td><td>${obtainedMarks1}</td><td>${(obtainedMarks1/totalMarks)*100}</td></tr>
-    <tr><td>${sub2}</td><td>${totalMarks}</td><td>${obtainedMarks2}</td><td>${(obtainedMarks2/totalMarks)*100}</td></tr>
-    <tr><td>${sub3}</td><td>${totalMarks}</td><td>${obtainedMarks3}</td><td>${(obtainedMarks3/totalMarks)*100}</td></tr>
+// document.write(`<table>
+//     <tr><th>Subject</th><th>Total Marks</th><th>Obtained Marks</th><th>Percentage</th>
+//     </tr><tr><td>${sub1}</td><td>${totalMarks}</td><td>${obtainedMarks1}</td><td>${(obtainedMarks1/totalMarks)*100}</td></tr>
+//     <tr><td>${sub2}</td><td>${totalMarks}</td><td>${obtainedMarks2}</td><td>${(obtainedMarks2/totalMarks)*100}</td></tr>
+//     <tr><td>${sub3}</td><td>${totalMarks}</td><td>${obtainedMarks3}</td><td>${(obtainedMarks3/totalMarks)*100}</td></tr>
 
-    <tr><td>}</td><td>${totalMarks*3}</td><td>${obtainedMarks1+obtainedMarks2+obtainedMarks3}</td><td>${((obtainedMarks1+obtainedMarks2+obtainedMarks3)/300)*100}</td></tr>
-    </table>`)
+//     <tr><td>}</td><td>${totalMarks*3}</td><td>${obtainedMarks1+obtainedMarks2+obtainedMarks3}</td><td>${((obtainedMarks1+obtainedMarks2+obtainedMarks3)/300)*100}</td></tr>
+//     </table>`);
+
+// Chapter 6 (Math Expression II)
+
+// Q1
+// x++;
+// x += 1;
+
+// Q2
+// x = 100;
+// --x;
+
+// Q3
+// 50
+
+// Q4
+// 49
+
+// Q5
+// var num = 50;
+// var newNum = num--;
+
+// Q6
+// var num = 50;
+// var newNum = num++;
+
+// Q7
+
+// var value = 7;
+// var inc = ++value;
+// alert(inc);
+
+
+// Chapter 7 (Math Expression III)
+
+// Q1
+// var calculatedNum = 2 + (2 * 6);
+// 14
+
+// Q2
+// var calculatedNum = (2 + 2) * 6;
+// 24
+
+// Q3
+// var calculatedNum = (2 + 2) * (4 + 2);
+// 24
+
+// Q4
+// var calculatedNum = ((2 + 2) * 4) + 2;
+// 18
+
+// Q5
+// var calculatedNum = (2 + 2) * (4 + 10);
+
+
+// Q6
+// var calculatedNum = 2 + (2 * 4) + 10;
+
+
+// Q7
+var calculatedNum = 4 / 2 * 4;
+alert(calculatedNum);
